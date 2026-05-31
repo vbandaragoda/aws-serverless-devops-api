@@ -37,4 +37,5 @@ export const handler = async (event) => {
             })
         };
     }
+    console.log("User creation process completed.");
 };
