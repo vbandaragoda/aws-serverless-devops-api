@@ -24,7 +24,7 @@ export const handler = async (event) => {
         return {
             statusCode: 200,
             body: JSON.stringify({
-                message: "User created successfully via CI/CD"
+                message: "User created successfully via CI/CD Pipeline"
             })
         };
 
